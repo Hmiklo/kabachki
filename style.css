@@ -223,10 +223,6 @@ aside {
   padding: 0.1em;
 
 }
-.timeline-date:hover {
-  background-color: rgba(65, 144, 0, 0.2);
-
-}
 
 .timeline-date-active {
   font-size: 1.3em;
@@ -287,7 +283,15 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   overflow: hidden; 
   position: relative;
 }
-
+.third-part {
+  font-size: 0.7em;
+  display: block;
+  height: auto;
+  opacity: 1;
+  overflow: hidden; 
+  position: relative;
+}
+  
 .sms-icon {
   position: absolute;
   bottom: 1.5em;
