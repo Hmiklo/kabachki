@@ -363,10 +363,10 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   opacity: 0.4;
 }  
 .prev-button {
-  left: -8.8em;
+  left: 1em;
 }
 .next-button {
-  left: -4em;
+  left: 5em;
 }
 .prev-button:hover,
 .next-button:hover {
