@@ -15,6 +15,7 @@ body {
   color: #FFFAF6;
   display: grid;
   place-items: center;
+  -webkit-tap-highlight-color: transparent;
 }
 
 main {
