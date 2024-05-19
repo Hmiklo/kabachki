@@ -254,6 +254,7 @@ aside {
 
 
 .middleyear {
+  opacity: 0.6;
   margin-top: 0.3em;
   font-size: 1em;
   cursor: pointer;
