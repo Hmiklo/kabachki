@@ -357,18 +357,17 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 .prev-button,
 .next-button {
   z-index: 20;
-  position: relative;
+  bottom: -6.5em;
+  position: absolute;
   width: 2.5em;
   cursor: pointer;
   opacity: 0.4;
 }  
 .prev-button {
-  bottom: 2em;
-  left: -9em;
+  left: 2em;
 }
 .next-button {
-  bottom: 4.5em;
-  left: -5em;
+  left: 7em;
 }
 .prev-button:hover,
 .next-button:hover {
