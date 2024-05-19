@@ -340,10 +340,10 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   opacity: 0.4;
 }
 .prev-arrow {
-  left: 2em;
+  left: 7em;
 }
 .next-arrow {
-  right: 2em;
+  right: 7em;
 }
 .prev-arrow:hover,
 .next-arrow:hover {
@@ -356,17 +356,18 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 .prev-button,
 .next-button {
   z-index: 20;
-  bottom: -6.5em;
-  position: absolute;
+  position: relative;
   width: 2.5em;
   cursor: pointer;
   opacity: 0.4;
 }  
 .prev-button {
-  left: 1em;
+  bottom: 2em;
+  left: -9em;
 }
 .next-button {
-  left: 5em;
+  bottom: 4.5em;
+  left: -5em;
 }
 .prev-button:hover,
 .next-button:hover {
