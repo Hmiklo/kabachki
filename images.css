@@ -1,0 +1,318 @@
+@media screen and (min-width: 800px) {
+.date-img-cont {
+    position: relative;
+    display: none; /* Изначально скрываем все изображения */
+  }
+  
+  .date-img-cont:first-child {
+    display: block; /* Показываем только первое изображение */
+  }
+  
+  .date-img-carousel {
+    max-height: 26em;
+    z-index: 1;
+  }
+  
+  .date-imgs {
+    position: relative;
+    max-height: 20em;
+    width: 28em;
+    margin-bottom: 2.7em;
+    border-radius: 2em;
+    z-index: 1;
+box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+
+  }
+  .date-imgs-h {
+    width: 15.1em;
+  }
+  .date-imgs-w {
+    width: 50em;
+  }
+  .date-imgs-wh {
+    width: 30em;
+  }
+  .date-imgs-ww {
+    width: 45em;
+  }
+  .date-imgdob {
+    top: 1.2em;
+    margin-bottom: 4.05em;
+  }
+  .date-imgdob1 {
+    position: relative;
+    max-height: 20em;
+    width: 28em;
+    margin-bottom: 2.8em;
+    border-radius: 2em;
+    z-index: 1;
+box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  }
+  .date-imgdob2 {
+    top: 1.2em;
+    margin-bottom: 2.7em;
+  }
+  .date-imgdobh {
+    position: relative;
+    object-fit: cover;
+    max-height: 20em;
+    width: 15em;
+    margin-bottom: 2.7em;
+    border-radius: 2em;
+    z-index: 1;
+box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  }
+  .date-imgmem {
+    height: 20em;
+    margin-bottom: 2.7em;
+    width: 20em;
+    object-fit: cover;
+  }
+ 
+  .thumbnail {
+    width: 2.4em; 
+    height: 2.4em; 
+    object-fit: cover;
+    margin: 0.4em;
+    cursor: pointer;
+    border-radius: 0.4em;
+    transition: opacity 0.3s;
+    opacity: 0.7;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    
+  }
+  
+  .thumbnail:hover {
+    opacity: 1;
+  }
+  
+  .thumbnail-container {
+    bottom: 5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em; /* Adjust as needed */
+  }
+  
+  .thumbnail-active {
+    border: 0.15em solid #419000; /* Highlight color */
+    width: auto;
+    width: 1.8em; 
+    height: 1.8em; 
+    object-fit: cover;
+    opacity: 0.3;
+  }
+
+  .gallery-video {
+    left: 4em;
+    align-items: center;
+    display: block;
+    height: 20em;
+    width: 28em; 
+    flex-direction: row; 
+    z-index: 5;
+    position: absolute;
+    top: -3em;
+    transform: translateY(20%);
+    justify-content: flex-start;
+  }
+  
+  .gallery-container-video {
+    flex-basis: calc(50% - 5em); /* Ширина контейнера изображения в ряду */
+    margin-bottom: 2em; /* Расстояние между строками */
+    position: absolute;
+  }
+
+  .gallery {
+    left: 4em;
+    align-items: center;
+    display: block;
+    height: 20em;
+    width: 28em; 
+    flex-direction: row; 
+    z-index: 5;
+    position: absolute;
+    top: -3em;
+    transform: translateY(20%);
+    justify-content: flex-start;
+  }
+  
+  .gallery-container {
+    flex-basis: calc(50% - 5em); /* Ширина контейнера изображения в ряду */
+    margin-bottom: 2em; /* Расстояние между строками */
+    position: absolute;
+  }
+  .gal-cont-large {
+    left: -3em;
+    width: 45em;
+    height: 15em;
+  }
+  .gal-cont-large > .gallery-thumbnail {
+    width: 10em;
+    margin: 0.1em;
+  }
+  .gal-cont-big {
+    left: -2em;
+    width: 40em;
+    height: 15em;
+  }
+  .gal-cont-pig {
+    left: -1em;
+    width: 30em;
+    height: 20em;
+  }
+  .gal-cont-pig > .gallery-thumbnail-h {
+    width: 30em;
+    margin: 0.5em;
+  }
+  .gal-cont-larg {
+    left: -1em;
+    width: 60em;
+    height: 15em;
+  }
+
+  
+  .gallery-thumbnail {
+    margin: 0.5em;
+    max-height: 15em;
+    width: 11em;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 1em;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
+
+  }
+  .gallery-thumbnail-h {
+    max-width: 7.3em;
+    transition: transform 0.3s ease;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    cursor: pointer;
+    border-radius: 1em;
+    object-fit: cover;
+  }
+  .gallery-thumbnail:hover, .gallery-thumbnail-h:hover {
+    transform: scale(1.05);
+  }  
+
+  .gal-cont-large > .enlarged {
+      position: absolute;
+      top: calc(50% - (6em / 2)); /* Half of the thumbnail height */
+      left: calc(50% - (-46em / 2)); /* Half of the thumbnail width */
+      transform: scale(2.1);
+      z-index: 5;
+      transition: transform 0.3s ease;
+      object-fit: contain;
+    }
+    .gal-cont-big > .enlarged {
+      position: absolute;
+      top: calc(50% - (6em / 2)); /* Half of the thumbnail height */
+      left: calc(50% - (-46em / 2)); /* Half of the thumbnail width */
+      transform: scale(2.1);
+      z-index: 5;
+      transition: transform 0.3s ease;
+      object-fit: contain;
+    }
+    .gal-cont-down > .enlarged {
+      position: absolute;
+      top: calc(50% - (1em / 2)); /* Half of the thumbnail height */
+      left: calc(50% - (-46em / 2)); /* Half of the thumbnail width */
+      transform: scale(2.1);
+      z-index: 5;
+      transition: transform 0.3s ease;
+      object-fit: contain;
+    }
+    .gal-cont-larg > .enlarged {
+      position: absolute;
+      top: calc(50% - (8em / 2)); /* Half of the thumbnail height */
+      left: calc(50% - (-20em / 2)); /* Half of the thumbnail width */
+      transform: scale(2.1);
+      z-index: 5;
+      transition: transform 0.3s ease;
+      object-fit: contain;
+    }
+
+  .enlarged {
+    position: absolute;
+    top: calc(50% - (11.5em / 2)); /* Half of the thumbnail height */
+    left: calc(50% - (-40em / 2)); /* Half of the thumbnail width */
+    transform: scale(2.1);
+    z-index: 5;
+    transition: transform 0.3s ease;
+    object-fit: contain;
+box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.9);
+
+  }
+  .enlarged-h {
+    position: absolute;
+    top: calc(50% - (11em / 2)); /* Half of the thumbnail height */
+    left: calc(50% - (-45em / 2)); /* Half of the thumbnail width */
+    transform: scale(2.1);
+    z-index: 5;
+    transition: transform 0.3s ease;
+    object-fit: contain;
+box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.9);
+
+  }
+  .enlarged-h:hover {
+    transform: scale(2.1);
+  }
+  .enlarged:hover {
+    transform: scale(2.1);
+  }
+
+  .gallery-shift {
+    opacity: 0;
+    max-height: 20.2em;
+    margin-bottom: 2.5em;
+  }
+
+  .img-rotate-cont {
+    position: absolute;
+    display: block;
+    bottom: 11em;
+    width: auto; 
+    height: 14.5em;
+    perspective: 1000px; /* Добавляем перспективу для эффекта 3D */
+}
+
+.img-rotate, .img-rotate-hidden {
+  position: absolute;
+  border-radius: 2em;
+  left: 24.9em;
+  width: auto;
+  height: 19.9em;
+  transition: transform 0.2s; /* Добавляем плавную анимацию поворота */
+}
+
+.img-rotate-hidden {
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+
+.video {
+  position: absolute;
+  object-fit: contain;
+  width: 14em;
+  height: 21em;
+  left: 21.5em;
+  top: -1em;
+  border-radius: 1.5em;
+}
+.horizont-video {
+  position: absolute;
+  object-fit: contain;
+  width: 35em;
+  height: 20em;
+  left: 11em;
+  top: -1em;
+  border-radius: 1.5em;
+}
+
+.music-img {
+  position: absolute;
+  right: 19em;
+}
+}

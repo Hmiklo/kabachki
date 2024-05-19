@@ -1,0 +1,412 @@
+@media screen and (max-width: 800px) {
+.date-img-cont {
+    position: relative;
+    display: none; /* Изначально скрываем все изображения */
+  }
+  
+  .date-img-cont:first-child {
+    display: block; /* Показываем только первое изображение */
+  }
+  
+  .date-img-carousel {
+    max-height: 26em;
+    z-index: 1;
+  }
+  
+  .date-imgs {
+    top: 16em;
+    position: relative;
+    width: 34em;
+    height: 100%;
+    object-fit: contain;
+    margin-bottom: 22.5em;
+    border-radius: 2em;
+    z-index: 1;
+box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  }
+  .date-imgs-h {
+    width: 32em;
+    top: 2.5em;
+    left: 2em;
+    margin-bottom: 5.35em;
+  }
+  .date-imgs-w {
+    top: 16em;
+    width: 40em;
+    height: 25em;
+    object-fit: cover;
+    margin-bottom: 23em;
+  }
+  .date-imgs-wh {
+    width: 35em;
+    height: 25.8em;
+    margin-bottom: 22.2em;
+    object-fit: cover;
+  }
+  .date-imgs-hw {
+    width: 24.1em;
+    margin-bottom: 11.8em;
+  }
+  .date-imgs-ww {
+    margin-bottom: 32.7em;
+  }
+  .date-imgmem {
+    width: 30em;
+    height: 30em;
+    object-fit: cover;
+    top: 10em;
+    margin-bottom: 18em;
+  }
+  
+  .date-imgdobh {
+    position: relative;
+    left: 3em;
+    top: 1em;
+    width: 17em;
+    height: 23em;
+    object-fit: cover;
+    margin-bottom: 25em;
+  }
+  .date-imgdobhmob {
+position: absolute;
+    top: 25em;
+    left: 21em;
+    border-radius: 2em;
+  }
+ .date-imgdobhmob1 {
+   z-index: 5;
+position: absolute;
+    top: 25em;
+    right: 28em;
+    border-radius: 2em;
+    height: 22.5em;
+  }
+.date-imgdobhmob2 {
+  z-index: 5;
+position: absolute;
+    top: 24em;
+    left: 6.9em;
+    border-radius: 2em;
+    height: 24em;
+    object-fit: cover;
+  }
+.date-imgdobhmob3 {
+  z-index: 5;
+position: absolute;
+    top: 24em;
+    left: 24.2em;
+    border-radius: 2em;
+    height: 24em;
+    object-fit: cover;
+  }
+  .date-imgdobhmob4 {
+position: absolute;
+    top: 25em;
+    left: 15.5em;
+    border-radius: 2em;
+  }
+  .date-imgdobhmobmar1 {
+    left: 24em;
+    top: 1em;
+    height: 22.5em;
+    width: 17em;
+    object-fit: cover;
+    margin-bottom: 25.5em;
+  }
+ .date-imgdobhmobmar2 {
+    top: 1em;
+    left: -5.75em;
+    height: 22.5em;
+    width: 17em;
+    object-fit: cover;
+    margin-bottom: 25.5em;
+  }
+  
+  .date-imgdobmob1 {
+    width: 30em;
+    margin-bottom: 28em;
+    top: 1em;
+    left: 3em;
+  }
+  .date-imgdobmob2 {
+    top: 23em;
+    left: 9em;
+    width: 30em;
+    position: absolute;
+  border-radius: 2em;
+  }
+.date-imgdobmob3 {
+    width: 30em;
+    margin-bottom: 25.5em;
+    top: 2em;
+    left: 3em;
+  }
+  .date-imgdobmob4 {
+    top: 25em;
+    left: 9em;
+    width: 30em;
+    position: absolute;
+  border-radius: 2em;
+  height: auto;
+  }
+  .date-imgdobmob5 {
+    width: 30em;
+    margin-bottom: 24.3em;
+    top: 2em;
+    left: 3em;
+  }
+  
+  .date-imgdobhmob5 {
+    height: 21em;
+    object-fit: cover;
+    width: 20em;
+    margin-bottom: -24em;
+    top: -26em;
+    left: 1em;
+    
+  }
+  
+  
+ .thumbnail {
+    width: 3em; 
+    height: 3em; 
+    object-fit: cover;
+    margin: 0.4em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    transition: opacity 0.3s;
+    opacity: 0.6;
+  }
+  
+  .thumbnail-container {
+    bottom: 5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em; /* Adjust as needed */
+  }
+  
+  .thumbnail-active {
+    border: 0.15em solid #419000; /* Highlight color */
+    width: auto;
+    width: 2.5em; 
+    height: 2.5em; 
+    object-fit: cover;
+    opacity: 0.3;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+
+.gallery {
+    left: 5em;
+    align-items: center;
+    display: block;
+    height: 20em;
+    width: 28em; 
+    flex-direction: row; 
+    z-index: 5;
+    position: absolute;
+    top: -1em;
+    transform: translateY(20%);
+    justify-content: flex-start;
+  }
+  
+  .gallery-container {
+    flex-basis: calc(50% - 5em); 
+    margin-bottom: 2em; 
+    position: absolute;
+    left: 4em;
+    top: -2em;
+    width: 30em;
+  }
+  .gal-cont-large {
+    left: 3.5em;
+    width: 30em;
+    height: 15em;
+  }
+  .gal-cont-large > .gallery-thumbnail {
+    width: 8em;
+    margin: 0.1em;
+  }
+  .gal-cont-large > .gallery-thumbnail-h {
+    width: 6em;
+    margin: 0.1em;
+  }
+  .gal-cont-big {
+    left: 4em;
+    width: 30em;
+    height: 20em;
+  }
+  .gal-cont-big > .gallery-thumbnail-h {
+    width: 8em;
+    margin: 0.1em;
+  }
+  
+ .gal-cont-pig {
+    left: 4em;
+    width: 30em;
+    height: 20em;
+  }
+
+  .gal-cont-larg {
+    left: 2em;
+    width: 25em;
+    height: 15em;
+  }
+ .gal-cont-larg > .enlarged {
+    left: 10em;
+    top: 15em;
+  }
+  
+  .gallery-thumbnail {
+    margin: 0.5em;
+    max-height: 15em;
+    width: 10em;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 1em;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  }
+  .gallery-thumbnail-h {
+    max-width: 7.7em;
+    transition: transform 0.3s ease;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    cursor: pointer;
+    border-radius: 1em;
+    object-fit: cover;
+  }
+  .gallery-thumbnail:hover, .gallery-thumbnail-h:hover {
+    transform: scale(1.05);
+  }  
+
+  .gal-cont-large > .enlarged {
+      position: absolute;
+      top: calc(50% - (-38em / 2)); /* Half of the thumbnail height */
+      left: calc(50% - (13.5em / 2)); /* Half of the thumbnail width */
+      transform: scale(4.5);
+      z-index: 5;
+      transition: transform 0.3s ease;
+      object-fit: contain;
+    }
+    .gal-cont-big > .enlarged {
+      position: absolute;
+      top: calc(50% - (-30em / 2)); /* Half of the thumbnail height */
+      left: calc(50% - (17em / 2)); /* Half of the thumbnail width */
+      transform: scale(3.5);
+      z-index: 5;
+      transition: transform 0.3s ease;
+      object-fit: contain;
+    }
+    .gal-cont-pig > .enlarged {
+      position: absolute;
+      top: calc(50% - (-29.6em / 2)); /* Half of the thumbnail height */
+      left: calc(50% - (17em / 2)); /* Half of the thumbnail width */
+      transform: scale(3.5);
+      z-index: 5;
+      transition: transform 0.3s ease;
+      object-fit: contain;
+    }
+    
+.gal-cont-sit > .enlarged {
+    position: absolute;
+    top: calc(50% - (-33em / 2)); /* Half of the thumbnail height */
+    left: calc(50% - (17em / 2)); /* Half of the thumbnail width */
+    transform: scale(3.5);
+    z-index: 5;
+    transition: transform 0.3s ease;
+    object-fit: contain;
+box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.9);
+  }
+    
+
+  .enlarged {
+    position: absolute;
+    top: calc(50% - (-30em / 2)); /* Half of the thumbnail height */
+    left: calc(50% - (14em / 2)); /* Half of the thumbnail width */
+    transform: scale(3.5);
+    z-index: 5;
+    transition: transform 0.3s ease;
+    object-fit: contain;
+box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.9);
+  }
+
+  .enlarged-h:hover {
+    transform: scale(3.5);
+  }
+  .enlarged:hover {
+    transform: scale(3.5);
+  }
+  .gal-cont-large > .enlarged:hover {
+transform: scale(4.5);
+  }
+
+  .gallery-shift {
+    opacity: 0;
+    height: 25.5em;
+    z-index: -10;
+  }
+ 
+
+  .img-rotate-cont {
+    position: absolute;
+    display: block;
+    left: 6em;
+    top: 3em;
+    width: auto; 
+    height: 18em;
+    perspective: 1000px; /* Добавляем перспективу для эффекта 3D */
+}
+
+.img-rotate, .img-rotate-hidden {
+  position: absolute;
+  border-radius: 2em;
+  left: 1em;
+  width: auto;
+  height: 32em;
+  transition: transform 0.2s; /* Добавляем плавную анимацию поворота */
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.img-rotate-hidden {
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+
+.video {
+  position: absolute;
+  top: 1em;
+  left: 9em;
+  width: 26em;
+  border-radius: 2em;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.horizont-video {
+  position: absolute;
+  object-fit: contain;
+  width: 36em;
+  height: 25em;
+  left: -5em;
+  top: 15em;
+  border-radius: 1.5em;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+  
+  .date-img-music {
+    position: relative;
+    top: 0;
+    left: 1em;
+    width: 23em;
+    border-radius: 2em;
+    margin-bottom: 11.3em;
+  }
+  .music-img {
+  position: absolute;
+    left: 4em;
+    top: 15em;
+    height: 25.5em;
+    border-radius: 2em;
+}
+}
