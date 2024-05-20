@@ -444,19 +444,20 @@ audio::-webkit-media-controls-panel {
 }
 #audio2 {
   position: absolute;
-  top: 0em;
+  top: -5.5em;
   height: 2em;
-  right: 0em;
+  left: 8em;
   z-index: 10;
   opacity: 0;
   transition: opacity 1s ease-in-out;
+  width: 10em;
 }
 .music-icon {
-  border-radius: 1em;
+  border-radius: 50%;
   position: absolute;
-  top: 0em;
-  height: 2.1em;
-  right: 19em;
+  top: -6em;
+  height: 2em;
+  left: 5.7em;
   z-index: 100;
   opacity: 0; 
   transition: opacity 1s ease-in-out;
