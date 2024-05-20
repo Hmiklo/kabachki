@@ -427,20 +427,20 @@ audio::-webkit-media-controls-play-button {
 }
 #audio2 {
   position: fixed;
-  bottom: 3em;
-  height: 3em;
-  width: 20em;
-  right: 5em;
+  top: 14em;
+  height: 2em;
+  width: 10em;
+  right: 2em;
   z-index: 10;
   opacity: 0; /* начальная прозрачность */
   transition: opacity 1s ease-in-out;
 }
 .music-icon {
-  border-radius: 1em;
+  border-radius: 50%;
   position: fixed;
-  bottom: 3.2em;
-  height: 3em;
-  right: 26em;
+  top: 14em;
+  height: 2em;
+  right: 13em;
   z-index: 100;
   opacity: 0; /* начальная прозрачность */
   transition: opacity 1s ease-in-out;
