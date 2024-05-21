@@ -322,9 +322,8 @@ position: fixed;
 .next-arrow {
   bottom: 2em;
   position: absolute;
-  width: 5em;
+  width: 4em;
   cursor: pointer;
-  opacity: 0.5;
 }
 
 .prev-arrow {
@@ -346,7 +345,7 @@ position: fixed;
   position: fixed;
   width: 4.5em;
   height: 4.5em;
-opacity: 0.5;
+opacity: 0.9;
 bottom: 1.5em;
 }
 
@@ -399,7 +398,7 @@ width: 3.8em;
   left: 11em;
 }
 .gallery-next {
-  right: -1em;
+  right: 1em;
 }
 
 
