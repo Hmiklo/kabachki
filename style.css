@@ -341,7 +341,7 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 .next-arrow {
   bottom: 1.8em;
   position: absolute;
-  width: 3em;
+  width: 3.5em;
   cursor: pointer;
 }
 .prev-arrow {
@@ -356,7 +356,7 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .prev-arrow:active,
 .next-arrow:active {
-  width: 2.8em;
+  width: 3.3em;
 }
 .prev-button,
 .next-button {
