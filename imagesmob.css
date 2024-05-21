@@ -352,8 +352,8 @@ transform: scale(4.5);
   .img-rotate-cont {
     position: absolute;
     display: block;
-    left: 6em;
-    top: 3em;
+    left: 8em;
+    top: 5em;
     width: auto; 
     height: 18em;
     perspective: 1000px; /* Добавляем перспективу для эффекта 3D */
