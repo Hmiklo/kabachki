@@ -341,9 +341,8 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 .next-arrow {
   bottom: 1.8em;
   position: absolute;
-  width: 2.5em;
+  width: 3em;
   cursor: pointer;
-  opacity: 0.8;
 }
 .prev-arrow {
   left: 7em;
@@ -353,18 +352,18 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .prev-arrow:hover,
 .next-arrow:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .prev-arrow:active,
 .next-arrow:active {
-  width: 2.4em;
+  width: 2.8em;
 }
 .prev-button,
 .next-button {
   z-index: 20;
   bottom: -6.5em;
   position: absolute;
-  width: 2.5em;
+  width: 3em;
   cursor: pointer;
   opacity: 0.8;
 }  
@@ -376,11 +375,11 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .prev-button:hover,
 .next-button:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 .prev-button:active,
 .next-button:active {
-  width: 2.4em;
+  width: 2.7em;
 }
 
 .rotate-button {
