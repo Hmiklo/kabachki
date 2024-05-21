@@ -343,7 +343,7 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   position: absolute;
   width: 2.5em;
   cursor: pointer;
-  opacity: 0.4;
+  opacity: 0.8;
 }
 .prev-arrow {
   left: 7em;
@@ -366,7 +366,7 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   position: absolute;
   width: 2.5em;
   cursor: pointer;
-  opacity: 0.4;
+  opacity: 0.8;
 }  
 .prev-button {
   left: 2em;
@@ -406,7 +406,7 @@ opacity: 0.5;
   position: absolute;
   cursor: pointer;
   z-index: 15;
-  opacity: 0.6;
+  opacity: 0.8;
   bottom: 22em;
 }
 .gallery-prev:hover, .gallery-next:hover {
